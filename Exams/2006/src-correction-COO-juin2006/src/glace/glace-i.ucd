@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="glace-i" size="1256,702" id="glace" metadata="uml2-1.0" initialized="true" tag="5" key="323030343130323620676C61636573">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" name="CoupeGlacee" location="370,20" size="186,121" id="glace/CoupeGlacee" runTimeClassModel="parfums,CoupeGlacee(),cout(),description()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="parfums" id="glace/CoupeGlacee#parfums"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,54">
+      <children xsi:type="editmodel:MethodEditModel" name="CoupeGlacee" id="glace/CoupeGlacee#CoupeGlacee()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cout" id="glace/CoupeGlacee#cout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="description" id="glace/CoupeGlacee#description()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Parfum" location="30,10" size="172,211" id="glace/Parfum" runTimeClassModel="cASSIS,toString(),Parfum(Ljava.lang.String;),fRAMBOISE,fRAISE,cHOCOLAIT,cHOCOBLANC,cHOCONOIR,name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="cASSIS" id="glace/Parfum#cASSIS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cHOCOBLANC" id="glace/Parfum#cHOCOBLANC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cHOCOLAIT" id="glace/Parfum#cHOCOLAIT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cHOCONOIR" id="glace/Parfum#cHOCONOIR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fRAISE" id="glace/Parfum#fRAISE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fRAMBOISE" id="glace/Parfum#fRAMBOISE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="glace/Parfum#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Parfum" id="glace/Parfum#Parfum(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="glace/Parfum#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FruitsRouges" location="80,275" size="191,103" id="glace/FruitsRouges" runTimeClassModel="cout(),sINGLETON,FruitsRouges()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="sINGLETON" id="glace/FruitsRouges#sINGLETON"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FruitsRouges" id="glace/FruitsRouges#FruitsRouges()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cout" id="glace/FruitsRouges#cout()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="glace/CoupeGlacee&lt;-glace/FruitsRouges" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="155,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TripleChocolat" location="300,275" size="196,103" id="glace/TripleChocolat" runTimeClassModel="cout(),TripleChocolat(),sINGLETON">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="sINGLETON" id="glace/TripleChocolat#sINGLETON"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TripleChocolat" id="glace/TripleChocolat#TripleChocolat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cout" id="glace/TripleChocolat#cout()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="glace/CoupeGlacee&lt;-glace/TripleChocolat" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

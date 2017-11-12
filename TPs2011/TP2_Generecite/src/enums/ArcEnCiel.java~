@@ -1,0 +1,42 @@
+   /** 
+    @author : RAKOTOBE Sitraka Eric  
+   */
+
+
+package enums;
+
+import java.lang.*;
+import scanner.TestScanner ; 
+
+
+
+
+
+/** DÉFINITION DE LA CLASSE ENUMEREE Jour */
+
+
+public enum Jour {
+  LUNDI(TRUE), 
+  MARDI(TRUE), 
+  MERCREDI(TRUE), 
+  JEUDI(TRUE), 
+  VENDREDI(TRUE), 
+  SAMEDI(FALSE),
+  DIMANCHE(FALSE); 
+  
+
+
+  /** Constructeur*/
+  public Jour(Boolean estTravaille)
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+    }
+
+      
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1172,1401" id="jeuDeLoie" metadata="uml2-1.0" initialized="true" scrolledX="-5" scrolledY="67" tag="1000" key="32303037303533312D31303030204A657544654C6F69652F746172696B">
+  <children xsi:type="editmodel:PackageEditModel" name="jeuDeLoie.oie" location="0,-5" size="1152,1314" id="jeuDeLoie.oie">
+    <children xsi:type="editmodel:ClassEditModel" name="Player" location="816,826" size="234,248" id="jeuDeLoie.oie/Player" runTimeClassModel="getName(),Player(Ljava.lang.String;LjeuDeLoie.oie.Cell;),setName(Ljava.lang.String;),getCell(),cell,name,swapPlayer(LjeuDeLoie.oie.Player;),twoDicesThrow(),oneDiceThrow(),toString(),setCell(LjeuDeLoie.oie.Cell;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="89,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="cell" id="jeuDeLoie.oie/Player#cell"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="name" id="jeuDeLoie.oie/Player#name"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="211,162">
+        <children xsi:type="editmodel:MethodEditModel" name="Player" id="jeuDeLoie.oie/Player#Player(Ljava.lang.String;LjeuDeLoie.oie.Cell;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getCell" id="jeuDeLoie.oie/Player#getCell()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="jeuDeLoie.oie/Player#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="oneDiceThrow" id="jeuDeLoie.oie/Player#oneDiceThrow()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setCell" id="jeuDeLoie.oie/Player#setCell(LjeuDeLoie.oie.Cell;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="jeuDeLoie.oie/Player#setName(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="swapPlayer" id="jeuDeLoie.oie/Player#swapPlayer(LjeuDeLoie.oie.Player;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="jeuDeLoie.oie/Player#toString()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="twoDicesThrow" id="jeuDeLoie.oie/Player#twoDicesThrow()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="PlayerList" location="820,1130" size="248,140" id="jeuDeLoie.oie/PlayerList" runTimeClassModel="listOfPlayers,PlayerList(),addPlayer(LjeuDeLoie.oie.Player;),nextPlayer(),iter">
+      <children xsi:type="editmodel:CompartmentEditModel" size="163,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="iter" id="jeuDeLoie.oie/PlayerList#iter"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="listOfPlayers" id="jeuDeLoie.oie/PlayerList#listOfPlayers"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="171,54">
+        <children xsi:type="editmodel:MethodEditModel" name="PlayerList" id="jeuDeLoie.oie/PlayerList#PlayerList()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="addPlayer" id="jeuDeLoie.oie/PlayerList#addPlayer(LjeuDeLoie.oie.Player;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="nextPlayer" id="jeuDeLoie.oie/PlayerList#nextPlayer()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Game" location="784,134" size="334,158" id="jeuDeLoie.oie/Game" runTimeClassModel="boundedIndex(II),addPlayer(Ljava.lang.String;),Game(LjeuDeLoie.oie.Board;),thePlayers,board,play()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="135,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="board" id="jeuDeLoie.oie/Game#board"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="thePlayers" id="jeuDeLoie.oie/Game#thePlayers"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="296,72">
+        <children xsi:type="editmodel:MethodEditModel" name="Game" id="jeuDeLoie.oie/Game#Game(LjeuDeLoie.oie.Board;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="addPlayer" id="jeuDeLoie.oie/Game#addPlayer(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="boundedIndex" id="jeuDeLoie.oie/Game#boundedIndex(II)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="play" id="jeuDeLoie.oie/Game#play()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Main" location="852,51" size="164,68" id="jeuDeLoie.oie/Main" runTimeClassModel="main([Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="141,18">
+        <children xsi:type="editmodel:MethodEditModel" name="main" id="jeuDeLoie.oie/Main#main([Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="StartCell" location="142,271" size="272,176" id="jeuDeLoie.oie/StartCell" runTimeClassModel="canBeLeft(),isBusy(),thePlayers,getIndex(),getPlayer(),consequence(I),setPlayer(LjeuDeLoie.oie.Player;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="135,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="thePlayers" id="jeuDeLoie.oie/StartCell#thePlayers"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="209,108">
+        <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="jeuDeLoie.oie/StartCell#canBeLeft()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/StartCell#consequence(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="jeuDeLoie.oie/StartCell#getIndex()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="jeuDeLoie.oie/StartCell#getPlayer()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="jeuDeLoie.oie/StartCell#isBusy()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="jeuDeLoie.oie/StartCell#setPlayer(LjeuDeLoie.oie.Player;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.0/@children.10/@sourceConnections.0" autoLocated="true" id="jeuDeLoie.oie/Cell&lt;-jeuDeLoie.oie/StartCell" source="//@children.0/@children.4" target="//@children.0/@children.8" targetEnd="//@children.0/@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="149,171" anchorKind="FixedAtEdge"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="TrapCell" location="11,515" size="245,104" id="jeuDeLoie.oie/TrapCell" runTimeClassModel="TrapCell(I),canBeLeft(),consequence(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="209,54">
+        <children xsi:type="editmodel:MethodEditModel" name="TrapCell" id="jeuDeLoie.oie/TrapCell#TrapCell(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="jeuDeLoie.oie/TrapCell#canBeLeft()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/TrapCell#consequence(I)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jeuDeLoie.oie/BasicCell&lt;-jeuDeLoie.oie/TrapCell" source="//@children.0/@children.5" target="//@children.0/@children.7/@sourceConnections.0" targetEnd="//@children.0/@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="122,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="109,176"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="GooseCell" location="565,515" size="238,86" id="jeuDeLoie.oie/GooseCell" runTimeClassModel="GooseCell(I),consequence(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="209,36">
+        <children xsi:type="editmodel:MethodEditModel" name="GooseCell" id="jeuDeLoie.oie/GooseCell#GooseCell(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/GooseCell#consequence(I)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jeuDeLoie.oie/BasicCell&lt;-jeuDeLoie.oie/GooseCell" source="//@children.0/@children.6" target="//@children.0/@children.7/@sourceConnections.0" targetEnd="//@children.0/@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="118,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="221,176"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="JumpCell" location="272,515" size="278,104" id="jeuDeLoie.oie/JumpCell" runTimeClassModel="JumpCell(II),jumpIndex,consequence(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="97,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="jumpIndex" id="jeuDeLoie.oie/JumpCell#jumpIndex"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="238,36">
+        <children xsi:type="editmodel:MethodEditModel" name="JumpCell" id="jeuDeLoie.oie/JumpCell#JumpCell(II)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/JumpCell#consequence(I)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.0/@children.5/@sourceConnections.0 //@children.0/@children.6/@sourceConnections.0 //@children.0/@children.9/@sourceConnections.0" autoLocated="true" id="jeuDeLoie.oie/BasicCell&lt;-jeuDeLoie.oie/JumpCell" source="//@children.0/@children.7" target="//@children.0/@children.10" targetEnd="//@children.0/@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="136,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="132,194" anchorKind="FixedAtEdge"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@children.4/@sourceConnections.0" name="Cell" location="297,50" size="301,171" id="jeuDeLoie.oie/Cell" runTimeClassModel="canBeLeft(),isBusy(),getIndex(),getPlayer(),consequence(I),setPlayer(LjeuDeLoie.oie.Player;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="215,108">
+        <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="jeuDeLoie.oie/Cell#canBeLeft()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/Cell#consequence(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="jeuDeLoie.oie/Cell#getIndex()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="jeuDeLoie.oie/Cell#getPlayer()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="jeuDeLoie.oie/Cell#isBusy()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="jeuDeLoie.oie/Cell#setPlayer(LjeuDeLoie.oie.Player;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="WaitCell" location="828,515" size="290,230" id="jeuDeLoie.oie/WaitCell" runTimeClassModel="setWaitDuration(I),waitTime,WaitCell(II),getWaitDuration(),canBeLeft(),getWaitTime(),waitDuration,consequence(I),setWaitTime(I),setPlayer(LjeuDeLoie.oie.Player;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="waitDuration" id="jeuDeLoie.oie/WaitCell#waitDuration"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="waitTime" id="jeuDeLoie.oie/WaitCell#waitTime"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="248,144">
+        <children xsi:type="editmodel:MethodEditModel" name="WaitCell" id="jeuDeLoie.oie/WaitCell#WaitCell(II)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="jeuDeLoie.oie/WaitCell#canBeLeft()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/WaitCell#consequence(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getWaitDuration" id="jeuDeLoie.oie/WaitCell#getWaitDuration()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getWaitTime" id="jeuDeLoie.oie/WaitCell#getWaitTime()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="jeuDeLoie.oie/WaitCell#setPlayer(LjeuDeLoie.oie.Player;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setWaitDuration" id="jeuDeLoie.oie/WaitCell#setWaitDuration(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setWaitTime" id="jeuDeLoie.oie/WaitCell#setWaitTime(I)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jeuDeLoie.oie/BasicCell&lt;-jeuDeLoie.oie/WaitCell" source="//@children.0/@children.9" target="//@children.0/@children.7/@sourceConnections.0" targetEnd="//@children.0/@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="232,66"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.7/@sourceConnections.0" name="BasicCell" location="466,271" size="265,194" id="jeuDeLoie.oie/BasicCell" runTimeClassModel="index,player,canBeLeft(),BasicCell(I),isBusy(),getIndex(),getPlayer(),consequence(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="93,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="index" id="jeuDeLoie.oie/BasicCell#index"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="player" id="jeuDeLoie.oie/BasicCell#player"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="209,108">
+        <children xsi:type="editmodel:MethodEditModel" name="BasicCell" id="jeuDeLoie.oie/BasicCell#BasicCell(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="jeuDeLoie.oie/BasicCell#canBeLeft()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="consequence" id="jeuDeLoie.oie/BasicCell#consequence(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="jeuDeLoie.oie/BasicCell#getIndex()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="jeuDeLoie.oie/BasicCell#getPlayer()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="jeuDeLoie.oie/BasicCell#isBusy()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jeuDeLoie.oie/Cell&lt;-jeuDeLoie.oie/BasicCell" source="//@children.0/@children.10" target="//@children.0/@children.4/@sourceConnections.0" targetEnd="//@children.0/@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="212,171"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.12/@sourceConnections.0" name="Board" location="225,709" size="231,176" id="jeuDeLoie.oie/Board" runTimeClassModel="Board(I),initBoard(),theCells,getTheCells(),getNbOfCells(),NB_OF_CELLS,getCell(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="NB_OF_CELLS" id="jeuDeLoie.oie/Board#NB_OF_CELLS"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="theCells" id="jeuDeLoie.oie/Board#theCells"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="171,90">
+        <children xsi:type="editmodel:MethodEditModel" name="Board" id="jeuDeLoie.oie/Board#Board(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getCell" id="jeuDeLoie.oie/Board#getCell(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getNbOfCells" id="jeuDeLoie.oie/Board#getNbOfCells()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getTheCells" id="jeuDeLoie.oie/Board#getTheCells()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="initBoard" id="jeuDeLoie.oie/Board#initBoard()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ClassicBoard" location="51,1021" size="234,104" id="jeuDeLoie.oie/ClassicBoard" runTimeClassModel="tHE_BOARD,initBoard(),ClassicBoard(I)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="160,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="tHE_BOARD" id="jeuDeLoie.oie/ClassicBoard#tHE_BOARD"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="186,36">
+        <children xsi:type="editmodel:MethodEditModel" name="ClassicBoard" id="jeuDeLoie.oie/ClassicBoard#ClassicBoard(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="initBoard" id="jeuDeLoie.oie/ClassicBoard#initBoard()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jeuDeLoie.oie/Board&lt;-jeuDeLoie.oie/ClassicBoard" source="//@children.0/@children.12" target="//@children.0/@children.11" targetEnd="//@children.0/@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.12/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="203,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="29,176"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="Djebien Tarik - TP4 - Conception Orientée Objet" location="795,1350" size="321,15" fontInfo="Sans-9-3"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>

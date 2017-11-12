@@ -1,0 +1,22 @@
+README : 
+
+// Auteur : Djebien Tarik & YOULHAJEN Jamal dine
+// Date   : Décembre 2010
+// Objet  : TP: Plugin  ( Design Pattern Observer application )
+
+
+Ci-Joint le TP numero 8, tout est fonctionnel :
+
+Remarque:
+
+Pour lancer l'application : 
+dans le répertoire mes-plug: executer la commande  java -classpath .:classes:extensions application.Editeur [rertoire contenant les extensions]
+
+
+Pour les commentaires :
+
+tarik.djebien@etudiant.univ-lille1.fr
+jamaldine.youlhajen@etudiant.univ-lille1.fr
+
+Cordialement.
+

@@ -1,0 +1,4 @@
+class-path: .:classes:extentions
+Main-Class: application.Editeur
+
+

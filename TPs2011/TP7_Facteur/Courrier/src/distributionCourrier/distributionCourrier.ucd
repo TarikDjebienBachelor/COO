@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1941,1103" id="distributionCourrier" metadata="uml2-1.0" initialized="true" scrolledX="814" scrolledY="422" tag="1000" key="32303037303533312D3130303020436F7572726965722F746172696B">
+  <children xsi:type="editmodel:ClassEditModel" name="Habitant" location="395,883" size="345,245" id="distributionCourrier/Habitant" runTimeClassModel="adresse,crediter(F),recoitCourrier(LdistributionCourrier.Courrier;),setNom(Ljava.lang.String;),envoieCourrier(LdistributionCourrier.Courrier;),nom,getNom(),setSoldeCompte(F),soldeCompte,getAdresse(),getSoldeCompte(),Habitant(Ljava.lang.String;FLdistributionCourrier.Adresse;),debiter(F)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,45">
+      <children xsi:type="editmodel:AttributeEditModel" name="soldeCompte" id="distributionCourrier/Habitant#soldeCompte"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="adresse" id="distributionCourrier/Habitant#adresse"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="distributionCourrier/Habitant#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="322,150">
+      <children xsi:type="editmodel:MethodEditModel" name="recoitCourrier" id="distributionCourrier/Habitant#recoitCourrier(LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Habitant" id="distributionCourrier/Habitant#Habitant(Ljava.lang.String;FLdistributionCourrier.Adresse;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debiter" id="distributionCourrier/Habitant#debiter(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAdresse" id="distributionCourrier/Habitant#getAdresse()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="crediter" id="distributionCourrier/Habitant#crediter(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="envoieCourrier" id="distributionCourrier/Habitant#envoieCourrier(LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSoldeCompte" id="distributionCourrier/Habitant#getSoldeCompte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSoldeCompte" id="distributionCourrier/Habitant#setSoldeCompte(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNom" id="distributionCourrier/Habitant#setNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="distributionCourrier/Habitant#getNom()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Ville" location="701,883" size="248,155" id="distributionCourrier/Ville" runTimeClassModel="setBoiteALettres(Ljava.util.List;),Ville(Ljava.lang.String;),posteLettre(LdistributionCourrier.Courrier;),boiteALettres,distribueCourrier(),getNom(),getBoiteALettres(),nom">
+    <children xsi:type="editmodel:CompartmentEditModel" size="191,30">
+      <children xsi:type="editmodel:AttributeEditModel" name="boiteALettres" id="distributionCourrier/Ville#boiteALettres"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="distributionCourrier/Ville#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,75">
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="distributionCourrier/Ville#getNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="distribueCourrier" id="distributionCourrier/Ville#distribueCourrier()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="posteLettre" id="distributionCourrier/Ville#posteLettre(LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBoiteALettres" id="distributionCourrier/Ville#getBoiteALettres()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Ville" id="distributionCourrier/Ville#Ville(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Adresse" location="50,883" size="295,200" id="distributionCourrier/Adresse" runTimeClassModel="rue,setNumero(I),Adresse(ILjava.lang.String;LdistributionCourrier.Ville;),ville,setRue(Ljava.lang.String;),getRue(),getNumero(),setVille(LdistributionCourrier.Ville;),getVille(),numero">
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,45">
+      <children xsi:type="editmodel:AttributeEditModel" name="rue" id="distributionCourrier/Adresse#rue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ville" id="distributionCourrier/Adresse#ville"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numero" id="distributionCourrier/Adresse#numero"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="272,105">
+      <children xsi:type="editmodel:MethodEditModel" name="Adresse" id="distributionCourrier/Adresse#Adresse(ILjava.lang.String;LdistributionCourrier.Ville;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumero" id="distributionCourrier/Adresse#getNumero()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVille" id="distributionCourrier/Adresse#getVille()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRue" id="distributionCourrier/Adresse#setRue(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRue" id="distributionCourrier/Adresse#getRue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNumero" id="distributionCourrier/Adresse#setNumero(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVille" id="distributionCourrier/Adresse#setVille(LdistributionCourrier.Ville;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Argent" location="50,178" size="165,95" id="distributionCourrier/Argent" runTimeClassModel="getDescription(),valeur,Argent(F)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="valeur" id="distributionCourrier/Argent#valeur"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,30">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" location="4,81" id="distributionCourrier/Argent#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Argent" location="15,35" id="distributionCourrier/Argent#Argent(F)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="distributionCourrier/Contenu&lt;-distributionCourrier/Argent" source="//@children.3" target="//@children.10" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,78" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="LettreSimple" location="50,503" size="399,125" id="distributionCourrier/LettreSimple" runTimeClassModel="action(),getCout(),cOUT,LettreSimple(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Texte;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="cOUT" id="distributionCourrier/LettreSimple#cOUT"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="376,60">
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/LettreSimple#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/LettreSimple#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LettreSimple" id="distributionCourrier/LettreSimple#LettreSimple(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Texte;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="distributionCourrier/LettreSimple#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.15/@sourceConnections.0" autoLocated="true" id="distributionCourrier/Courrier&lt;-distributionCourrier/LettreSimple" source="//@children.4" target="//@children.9" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="199,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,289" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Recommande" location="1006,708" size="440,125" id="distributionCourrier/Recommande" runTimeClassModel="action(),getPOURCENTAGE(),getCout(),pOURCENTAGE,Recommande(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="pOURCENTAGE" id="distributionCourrier/Recommande#pOURCENTAGE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="417,60">
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/Recommande#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/Recommande#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Recommande" id="distributionCourrier/Recommande#Recommande(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPOURCENTAGE" id="distributionCourrier/Recommande#getPOURCENTAGE()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0" autoLocated="true" id="distributionCourrier/CourrierDecorateur&lt;-distributionCourrier/Recommande" source="//@children.5" target="//@children.15" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="220,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="236,155" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Texte" location="959,178" size="165,95" id="distributionCourrier/Texte" runTimeClassModel="getDescription(),Texte(Ljava.lang.String;),texte">
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="texte" id="distributionCourrier/Texte#texte"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,30">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="distributionCourrier/Texte#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Texte" id="distributionCourrier/Texte#Texte(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Contenu&lt;-distributionCourrier/Texte" source="//@children.6" target="//@children.3/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,59"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CourrierUrgent" location="1476,708" size="445,95" id="distributionCourrier/CourrierUrgent" runTimeClassModel="getCout(),CourrierUrgent(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;),fACTEUR_URGENCE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="fACTEUR_URGENCE" id="distributionCourrier/CourrierUrgent#fACTEUR_URGENCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="422,30">
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/CourrierUrgent#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CourrierUrgent" id="distributionCourrier/CourrierUrgent#CourrierUrgent(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/CourrierDecorateur&lt;-distributionCourrier/CourrierUrgent" source="//@children.7" target="//@children.5/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="222,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="279,47"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Merci" location="561,708" size="415,65" id="distributionCourrier/Merci" runTimeClassModel="Merci(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="392,15">
+      <children xsi:type="editmodel:MethodEditModel" name="Merci" id="distributionCourrier/Merci#Merci(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/LettreSimple&lt;-distributionCourrier/Merci" source="//@children.8" target="//@children.14/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="249,110"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Courrier" location="245,178" size="351,290" id="distributionCourrier/Courrier" runTimeClassModel="destinataire,getDestinataire(),action(),expediteur,repond(LdistributionCourrier.Courrier;),setCpt(I),cpt,getExpediteur(),nom,toString(),getDescription(),contenu,getCout(),Courrier(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LT;),getCpt(),getContenu()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,75">
+      <children xsi:type="editmodel:AttributeEditModel" name="destinataire" id="distributionCourrier/Courrier#destinataire"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="expediteur" id="distributionCourrier/Courrier#expediteur"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="contenu" id="distributionCourrier/Courrier#contenu"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cpt" id="distributionCourrier/Courrier#cpt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="distributionCourrier/Courrier#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="328,165">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="distributionCourrier/Courrier#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="repond" id="distributionCourrier/Courrier#repond(LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpediteur" id="distributionCourrier/Courrier#getExpediteur()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Courrier" id="distributionCourrier/Courrier#Courrier(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/Courrier#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/Courrier#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDestinataire" id="distributionCourrier/Courrier#getDestinataire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContenu" id="distributionCourrier/Courrier#getContenu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCpt" id="distributionCourrier/Courrier#getCpt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCpt" id="distributionCourrier/Courrier#setCpt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="distributionCourrier/Courrier#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Contenu&lt;-distributionCourrier/Courrier" source="//@children.9" target="//@children.3/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,78"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Contenu" location="510,50" size="165,78" id="distributionCourrier/Contenu" runTimeClassModel="getDescription()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,15">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="distributionCourrier/Contenu#getDescription()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LettreChange" location="957,503" size="411,140" id="distributionCourrier/LettreChange" runTimeClassModel="action(),LettreChange(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Argent;),getCout(),pOURCENTAGE,toString(),cOUT_BASE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,30">
+      <children xsi:type="editmodel:AttributeEditModel" name="pOURCENTAGE" id="distributionCourrier/LettreChange#pOURCENTAGE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cOUT_BASE" id="distributionCourrier/LettreChange#cOUT_BASE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="388,60">
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/LettreChange#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/LettreChange#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LettreChange" id="distributionCourrier/LettreChange#LettreChange(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Argent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="distributionCourrier/LettreChange#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Courrier&lt;-distributionCourrier/LettreChange" source="//@children.11" target="//@children.4/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="205,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="351,234"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CourrierGogo" location="479,503" size="448,110" id="distributionCourrier/CourrierGogo" runTimeClassModel="action(),getCout(),cOUT,CourrierGogo(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.ContenuGogo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="cOUT" id="distributionCourrier/CourrierGogo#cOUT"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="425,45">
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/CourrierGogo#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/CourrierGogo#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CourrierGogo" id="distributionCourrier/CourrierGogo#CourrierGogo(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.ContenuGogo;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Courrier&lt;-distributionCourrier/CourrierGogo" source="//@children.12" target="//@children.4/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,245"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ContenuGogo" location="626,178" size="303,140" id="distributionCourrier/ContenuGogo" runTimeClassModel="getDescription(),valeur,getValeur(),getBeneficiaires(),beneficiaires,ContenuGogo([LdistributionCourrier.Habitant;F)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,30">
+      <children xsi:type="editmodel:AttributeEditModel" name="valeur" id="distributionCourrier/ContenuGogo#valeur"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="beneficiaires" id="distributionCourrier/ContenuGogo#beneficiaires"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="280,60">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="distributionCourrier/ContenuGogo#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBeneficiaires" id="distributionCourrier/ContenuGogo#getBeneficiaires()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValeur" id="distributionCourrier/ContenuGogo#getValeur()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ContenuGogo" id="distributionCourrier/ContenuGogo#ContenuGogo([LdistributionCourrier.Habitant;F)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Contenu&lt;-distributionCourrier/ContenuGogo" source="//@children.13" target="//@children.3/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="151,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,36"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AccuseReception" location="50,708" size="481,65" id="distributionCourrier/AccuseReception" runTimeClassModel="AccuseReception(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="458,15">
+      <children xsi:type="editmodel:MethodEditModel" name="AccuseReception" id="distributionCourrier/AccuseReception#AccuseReception(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.8/@sourceConnections.0" autoLocated="true" id="distributionCourrier/LettreSimple&lt;-distributionCourrier/AccuseReception" source="//@children.14" target="//@children.4" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="199,124" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="CourrierDecorateur" location="1398,503" size="472,155" id="distributionCourrier/CourrierDecorateur" runTimeClassModel="action(),getDestinataire(),getDescription(),repond(LdistributionCourrier.Courrier;),getCout(),getExpediteur(),CourrierDecorateur(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="449,105">
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="distributionCourrier/CourrierDecorateur#action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CourrierDecorateur" id="distributionCourrier/CourrierDecorateur#CourrierDecorateur(LdistributionCourrier.Habitant;LdistributionCourrier.Habitant;LdistributionCourrier.Courrier;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="distributionCourrier/CourrierDecorateur#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpediteur" id="distributionCourrier/CourrierDecorateur#getExpediteur()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="distributionCourrier/CourrierDecorateur#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDestinataire" id="distributionCourrier/CourrierDecorateur#getDestinataire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="repond" id="distributionCourrier/CourrierDecorateur#repond(LdistributionCourrier.Courrier;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="distributionCourrier/Courrier&lt;-distributionCourrier/CourrierDecorateur" source="//@children.15" target="//@children.4/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="236,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,245"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Simulation" location="1208,235" size="157,65" id="distributionCourrier/Simulation" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,15">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="distributionCourrier/Simulation#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>

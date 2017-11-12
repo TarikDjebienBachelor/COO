@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="document" size="1070,916" id="mediatheque.document" metadata="uml2-1.0" initialized="true" scrolledX="1" tag="1000" key="32303037303533312D313030302073657373696F6E312D323030392D323031302F6A63">
+  <children xsi:type="editmodel:EnumerationEditModel" name="Genre" location="50,60" size="107,117" id="mediatheque.document/Genre" runTimeClassModel="CLASSIQUE%,ROCK%,JAZZ%,POP%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,64">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="JAZZ" id="mediatheque.document/Genre#JAZZ%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="POP" id="mediatheque.document/Genre#POP%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CLASSIQUE" id="mediatheque.document/Genre#CLASSIQUE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ROCK" id="mediatheque.document/Genre#ROCK%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DocumentTelechargeable" location="397,568" size="317,110" id="mediatheque.document/DocumentTelechargeable" runTimeClassModel="estEmprunte(),DocumentTelechargeable(Lmediatheque.document.Document;Ljava.net.URL;),url,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="54,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="url" id="mediatheque.document/DocumentTelechargeable#url"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="294,45">
+      <children xsi:type="editmodel:MethodEditModel" name="DocumentTelechargeable" id="mediatheque.document/DocumentTelechargeable#DocumentTelechargeable(Lmediatheque.document.Document;Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estEmprunte" id="mediatheque.document/DocumentTelechargeable#estEmprunte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/DocumentTelechargeable#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="mediatheque.document/DocumentDecorator&lt;-mediatheque.document/DocumentTelechargeable" source="//@children.1" target="//@children.4/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="DocumentDecorator" location="385,341" size="349,200" id="mediatheque.document/DocumentDecorator" runTimeClassModel="estEmprunte(),retourEmprunt(),document,emprunte(),getAuteur(),DocumentDecorator(Lmediatheque.document.Document;),accept(Lmediatheque.abonnement.DocumentSelectionneur;),getTitre(),consulter(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="document" id="mediatheque.document/DocumentDecorator#document"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="326,135">
+      <children xsi:type="editmodel:MethodEditModel" name="DocumentDecorator" id="mediatheque.document/DocumentDecorator#DocumentDecorator(Lmediatheque.document.Document;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="mediatheque.document/DocumentDecorator#accept(Lmediatheque.abonnement.DocumentSelectionneur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consulter" id="mediatheque.document/DocumentDecorator#consulter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/DocumentDecorator#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="emprunte" id="mediatheque.document/DocumentDecorator#emprunte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitre" id="mediatheque.document/DocumentDecorator#getTitre()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estEmprunte" id="mediatheque.document/DocumentDecorator#estEmprunte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="retourEmprunt" id="mediatheque.document/DocumentDecorator#retourEmprunt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAuteur" id="mediatheque.document/DocumentDecorator#getAuteur()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="mediatheque.document/Document&lt;-mediatheque.document/DocumentDecorator" source="//@children.2" target="//@children.5/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Musique" location="720,341" size="375,177" id="mediatheque.document/Musique" runTimeClassModel="genre,getGenre(),Musique(Lmediatheque.Auteur;Ljava.lang.String;ILmediatheque.document.Genre;),ecouter(),accept(Lmediatheque.abonnement.DocumentSelectionneur;),duree,consulter(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="duree" id="mediatheque.document/Musique#duree"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="genre" id="mediatheque.document/Musique#genre"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="352,96">
+      <children xsi:type="editmodel:MethodEditModel" name="Musique" id="mediatheque.document/Musique#Musique(Lmediatheque.Auteur;Ljava.lang.String;ILmediatheque.document.Genre;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="mediatheque.document/Musique#accept(Lmediatheque.abonnement.DocumentSelectionneur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consulter" id="mediatheque.document/Musique#consulter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ecouter" id="mediatheque.document/Musique#ecouter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGenre" id="mediatheque.document/Musique#getGenre()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/Musique#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="mediatheque.document/Document&lt;-mediatheque.document/Musique" source="//@children.3" target="//@children.5/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DocumentRiche" location="62,568" size="349,161" id="mediatheque.document/DocumentRiche" runTimeClassModel="estMotCle(Ljava.lang.String;),motsCles,DocumentRiche(Lmediatheque.document.Document;Ljava.util.List;),hashCode(),equals(Ljava.lang.Object;),accept(Lmediatheque.abonnement.DocumentSelectionneur;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="motsCles" id="mediatheque.document/DocumentRiche#motsCles"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="326,96">
+      <children xsi:type="editmodel:MethodEditModel" name="DocumentRiche" id="mediatheque.document/DocumentRiche#DocumentRiche(Lmediatheque.document.Document;Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="mediatheque.document/DocumentRiche#accept(Lmediatheque.abonnement.DocumentSelectionneur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="mediatheque.document/DocumentRiche#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estMotCle" id="mediatheque.document/DocumentRiche#estMotCle(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="mediatheque.document/DocumentRiche#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/DocumentRiche#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.1/@sourceConnections.0" autoLocated="true" id="mediatheque.document/DocumentDecorator&lt;-mediatheque.document/DocumentRiche" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,200" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Livre" location="50,341" size="349,161" id="mediatheque.document/Livre" runTimeClassModel="Livre(Lmediatheque.Auteur;Ljava.lang.String;Ljava.lang.String;),isbn,accept(Lmediatheque.abonnement.DocumentSelectionneur;),consulter(),lire(),nbPages,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="isbn" id="mediatheque.document/Livre#isbn"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nbPages" id="mediatheque.document/Livre#nbPages"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="326,80">
+      <children xsi:type="editmodel:MethodEditModel" name="Livre" id="mediatheque.document/Livre#Livre(Lmediatheque.Auteur;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="mediatheque.document/Livre#accept(Lmediatheque.abonnement.DocumentSelectionneur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consulter" id="mediatheque.document/Livre#consulter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lire" id="mediatheque.document/Livre#lire()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/Livre#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="mediatheque.document/Document&lt;-mediatheque.document/Livre" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,241" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Document" location="385,50" size="349,241" id="mediatheque.document/Document" runTimeClassModel="estEmprunte(),Document(Lmediatheque.Auteur;Ljava.lang.String;),retourEmprunt(),emprunte(),getAuteur(),estEmprunte,accept(Lmediatheque.abonnement.DocumentSelectionneur;),getTitre(),consulter(),auteur,titre,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,48">
+      <children xsi:type="editmodel:AttributeEditModel" name="auteur" id="mediatheque.document/Document#auteur"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="estEmprunte" id="mediatheque.document/Document#estEmprunte"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="titre" id="mediatheque.document/Document#titre"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="326,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Document" id="mediatheque.document/Document#Document(Lmediatheque.Auteur;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="mediatheque.document/Document#accept(Lmediatheque.abonnement.DocumentSelectionneur;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consulter" id="mediatheque.document/Document#consulter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="emprunte" id="mediatheque.document/Document#emprunte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estEmprunte" id="mediatheque.document/Document#estEmprunte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAuteur" id="mediatheque.document/Document#getAuteur()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitre" id="mediatheque.document/Document#getTitre()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="retourEmprunt" id="mediatheque.document/Document#retourEmprunt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="mediatheque.document/Document#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1536,1134" id="kermesse" metadata="uml2-1.0" initialized="true" scrolledY="187" tag="5" key="3230303431303236206B65726D65737365">
+  <children xsi:type="editmodel:ClassEditModel" name="Personne" location="345,822" size="218,139" id="kermesse/Personne" runTimeClassModel="age,getAge(),Personne(Ljava.lang.String;I),getNom(),nom">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="age" id="kermesse/Personne#age"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="kermesse/Personne#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Personne" id="kermesse/Personne#Personne(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAge" id="kermesse/Personne#getAge()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="kermesse/Personne#getNom()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Kermesse" location="50,822" size="245,211" id="kermesse/Kermesse" runTimeClassModel="ticket,activites,getTicket(),addActivite(Lkermesse.Activite;),getCout(),Kermesse(F),getSolde(I),getActivites(),getRecette(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="activites" id="kermesse/Kermesse#activites"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ticket" id="kermesse/Kermesse#ticket"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Kermesse" id="kermesse/Kermesse#Kermesse(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addActivite" id="kermesse/Kermesse#addActivite(Lkermesse.Activite;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActivites" id="kermesse/Kermesse#getActivites()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="kermesse/Kermesse#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecette" id="kermesse/Kermesse#getRecette(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSolde" id="kermesse/Kermesse#getSolde(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTicket" id="kermesse/Kermesse#getTicket()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Ticket" location="613,822" size="165,139" id="kermesse/Ticket" runTimeClassModel="valeur,getValeur(),Ticket(F)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="valeur" id="kermesse/Ticket#valeur"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Ticket" id="kermesse/Ticket#Ticket(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValeur" id="kermesse/Ticket#getValeur()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PasAutoriseException" location="50,1047" size="231,67" id="kermesse/PasAutoriseException" runTimeClassModel="PasAutoriseException(Lkermesse.Activite;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="211,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PasAutoriseException" id="kermesse/PasAutoriseException#PasAutoriseException(Lkermesse.Activite;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Monnaie" location="828,822" size="157,139" id="kermesse/Monnaie" runTimeClassModel="tICKET,eURO,toString(),Monnaie(Ljava.lang.String;),nom">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="eURO" id="kermesse/Monnaie#eURO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="kermesse/Monnaie#nom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tICKET" id="kermesse/Monnaie#tICKET"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Monnaie" id="kermesse/Monnaie#Monnaie(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="kermesse/Monnaie#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ActiviteTicket" location="50,383" size="398,121" id="kermesse/ActiviteTicket" runTimeClassModel="ticket,getMonnaie(),ActiviteTicket(Ljava.lang.String;FFLkermesse.Ticket;),getRecette(I)">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="ticket" id="kermesse/ActiviteTicket#ticket"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="295,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ActiviteTicket" id="kermesse/ActiviteTicket#ActiviteTicket(Ljava.lang.String;FFLkermesse.Ticket;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMonnaie" id="kermesse/ActiviteTicket#getMonnaie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecette" id="kermesse/ActiviteTicket#getRecette(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0" id="kermesse/Activite&lt;-kermesse/ActiviteTicket" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="197,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,283" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Activite" location="136,50" size="483,283" id="kermesse/Activite" runTimeClassModel="participe(Lkermesse.Personne;),toString(),cout,getNom(),getCout(),nom,setPolitiqueDeParticipation(Lkermesse.PolitiqueDeParticipation;),getTarif(),getMonnaie(),tarif,Activite(Ljava.lang.String;FFLkermesse.PolitiqueDeParticipation;),politiqueDeParticipation,getRecette(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="294,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="cout" id="kermesse/Activite#cout"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="kermesse/Activite#nom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="politiqueDeParticipation" id="kermesse/Activite#politiqueDeParticipation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tarif" id="kermesse/Activite#tarif"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="463,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Activite" id="kermesse/Activite#Activite(Ljava.lang.String;FFLkermesse.PolitiqueDeParticipation;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCout" id="kermesse/Activite#getCout()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMonnaie" id="kermesse/Activite#getMonnaie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="kermesse/Activite#getNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecette" id="kermesse/Activite#getRecette(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTarif" id="kermesse/Activite#getTarif()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="participe" id="kermesse/Activite#participe(Lkermesse.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPolitiqueDeParticipation" id="kermesse/Activite#setPolitiqueDeParticipation(Lkermesse.PolitiqueDeParticipation;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="kermesse/Activite#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ActiviteEuro" location="395,383" size="307,103" id="kermesse/ActiviteEuro" runTimeClassModel="getMonnaie(),ActiviteEuro(Ljava.lang.String;FF),getRecette(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ActiviteEuro" id="kermesse/ActiviteEuro#ActiviteEuro(Ljava.lang.String;FF)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMonnaie" id="kermesse/ActiviteEuro#getMonnaie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecette" id="kermesse/ActiviteEuro#getRecette(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="kermesse/Activite&lt;-kermesse/ActiviteEuro" source="//@children.7" target="//@children.5/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.0" name="PolitiqueDeParticipation" location="421,536" size="249,83" stereotype="interface" id="kermesse/PolitiqueDeParticipation" runTimeClassModel="peutParticiper(Lkermesse.Personne;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="229,18">
+      <children xsi:type="editmodel:MethodEditModel" name="peutParticiper" id="kermesse/PolitiqueDeParticipation#peutParticiper(Lkermesse.Personne;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PolitiqueParDefautPourActiviteEuro" location="390,669" size="308,139" id="kermesse/PolitiqueParDefautPourActiviteEuro" runTimeClassModel="iNSTANCE,toString(),peutParticiper(Lkermesse.Personne;),PolitiqueParDefautPourActiviteEuro(),aGE_LIMITE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="aGE_LIMITE" id="kermesse/PolitiqueParDefautPourActiviteEuro#aGE_LIMITE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="kermesse/PolitiqueParDefautPourActiviteEuro#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="228,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PolitiqueParDefautPourActiviteEuro" id="kermesse/PolitiqueParDefautPourActiviteEuro#PolitiqueParDefautPourActiviteEuro()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peutParticiper" id="kermesse/PolitiqueParDefautPourActiviteEuro#peutParticiper(Lkermesse.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="kermesse/PolitiqueParDefautPourActiviteEuro#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="kermesse/PolitiqueDeParticipation&lt;-kermesse/PolitiqueParDefautPourActiviteEuro" source="//@children.9" target="//@children.11/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="226,83"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PolitiquePourActiviteMaquillage" location="721,669" size="345,139" id="kermesse/PolitiquePourActiviteMaquillage" runTimeClassModel="iNSTANCE,toString(),PolitiquePourActiviteMaquillage(),peutParticiper(Lkermesse.Personne;),aGE_LIMITE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="aGE_LIMITE" id="kermesse/PolitiquePourActiviteMaquillage#aGE_LIMITE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="kermesse/PolitiquePourActiviteMaquillage#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="263,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PolitiquePourActiviteMaquillage" id="kermesse/PolitiquePourActiviteMaquillage#PolitiquePourActiviteMaquillage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peutParticiper" id="kermesse/PolitiquePourActiviteMaquillage#peutParticiper(Lkermesse.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="kermesse/PolitiquePourActiviteMaquillage#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="kermesse/PolitiqueDeParticipation&lt;-kermesse/PolitiquePourActiviteMaquillage" source="//@children.10" target="//@children.11/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="203,83"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PolitiqueParDefautPourActiviteTicket" location="50,669" size="316,121" id="kermesse/PolitiqueParDefautPourActiviteTicket" runTimeClassModel="iNSTANCE,toString(),peutParticiper(Lkermesse.Personne;),PolitiqueParDefautPourActiviteTicket()">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="kermesse/PolitiqueParDefautPourActiviteTicket#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="236,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PolitiqueParDefautPourActiviteTicket" id="kermesse/PolitiqueParDefautPourActiviteTicket#PolitiqueParDefautPourActiviteTicket()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peutParticiper" id="kermesse/PolitiqueParDefautPourActiviteTicket#peutParticiper(Lkermesse.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="kermesse/PolitiqueParDefautPourActiviteTicket#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.10/@sourceConnections.0" id="kermesse/PolitiqueDeParticipation&lt;-kermesse/PolitiqueParDefautPourActiviteTicket" source="//@children.11" target="//@children.8" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,83" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Test" location="860,200" size="140,67" id="kermesse/Test" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="kermesse/Test#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true"/>
+</editmodel:ClassDiagramEditModel>
